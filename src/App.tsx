@@ -16,7 +16,7 @@ function App() {
           <p>Visite orfanatos e mude o dia de muitas crianças.</p>
         </main>
         <div className="location">
-          <strong>Bahia</strong>
+          <strong>Bahia </strong>
           <span>Salvador</span>
         </div>
 

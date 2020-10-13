@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Landing from './pages/Landing';
+import Routes from './routes';
 
 import './styles/global.css';
 
@@ -8,7 +8,7 @@ import './styles/global.css';
 function App() {
   return (
     <BrowserRouter>
-      <Route path="/" component={Landing} />
+      <Routes />
     </BrowserRouter>
   );
 }
